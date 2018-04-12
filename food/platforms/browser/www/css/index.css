@@ -24,6 +24,7 @@ body {
     -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
     -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
     -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
+/*
     background-color:#E4E4E4;
     background-image:linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
     background-image:-webkit-linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
@@ -36,12 +37,13 @@ body {
         color-stop(0.51, #E4E4E4)
     );
     background-attachment:fixed;
+*/
     font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
     font-size:12px;
     height:100%;
     margin:0px;
     padding:0px;
-    text-transform:uppercase;
+/*    text-transform:uppercase;*/
     width:100%;
 }
 
@@ -113,3 +115,73 @@ h1 {
     animation:fade 3000ms infinite;
     -webkit-animation:fade 3000ms infinite;
 }
+
+.header{
+  padding-top:100px;
+}
+
+.title{
+  color:black;
+  font-weight: bold;
+  font-family: Abhaya Libre Medium;
+  font-size: 30px;
+}
+
+.signbutton{
+	text-align: center;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+	margin-top: 10%;
+}
+
+
+
+/* Add a hover effect for buttons */
+button:hover {
+    opacity: 0.8;
+}
+
+input[type=text]{
+    padding: 12px 20px;
+    margin-left: 10px;
+	margin-right: 5%;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+	margin-top: 40px;
+}
+
+input[type=password] {
+    padding: 12px 20px;
+    margin-left: 12px;
+	margin-right: 6%;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+	margin-top: 5px;
+}
+
+label {
+	margin-left: 8%;
+	margin-right: 5%;
+	margin-top: 5%;
+}
+
+ul {
+    list-style-type: none;
+	text-align: center;
+	margin-left: 0px;
+}
+
+li a {
+    color: black;
+    text-decoration: none;
+}
+
