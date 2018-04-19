@@ -1,0 +1,19 @@
+.food-category a {
+  float: left;
+  text-align: center;
+  display: inline-block;
+  width: 30%;
+  color: black;
+}
+
+.food-category img {
+  height: 80px;
+  width: 80px;
+  padding-right: 2px;
+}
+
+.food-category p {
+  position: relative;
+  font-size: 10px;
+  font-family: sans-serif;
+}
