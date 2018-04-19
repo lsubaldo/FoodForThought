@@ -7,9 +7,13 @@
     margin-left: -9px;
 }
 
+.icon-bar img {
+  width: 29px;
+  height: 29px;
+}
+
 .icon-bar a {
     float: left; /* Float links side by side */
-    display: block;
     text-align: center; /* Center-align text */
     width: 20%; /* Equal width (5 icons with 20% width each = 100%) */
     padding: 2px 0; /* Some top and bottom padding */
@@ -18,7 +22,7 @@
     font-size: 36px; /* Increased font size */
     text-align: center;
     margin-bottom: -10px;
-    /* display: inline-block; */
+    display: inline-block;
 }
 
 .icon-bar p {
