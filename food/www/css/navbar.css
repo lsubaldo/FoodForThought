@@ -20,7 +20,6 @@
     transition: all 0.3s ease; /* Add transition for hover effects */
     color: black; /* Black text color */
     font-size: 36px; /* Increased font size */
-    text-align: center;
     margin-bottom: -10px;
     display: inline-block;
 }

@@ -16,6 +16,7 @@ img {
 }
 
 #description {
+  font-family: sans-serif;
   padding-left: 25px;
   padding-bottom: 15px;
 }
