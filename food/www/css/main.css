@@ -1,3 +1,7 @@
+.food-heading {
+  font-family: sans-serif;
+}
+
 .food-category a {
   float: left;
   text-align: center;
@@ -7,8 +11,8 @@
 }
 
 .food-category img {
-  height: 80px;
-  width: 80px;
+  height: 100px;
+  width: 100px;
   padding-right: 2px;
 }
 
