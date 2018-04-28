@@ -1,5 +1,6 @@
 .food-heading {
   font-family: sans-serif;
+  padding: 2px;
 }
 
 .food-category a {
@@ -13,7 +14,10 @@
 .food-category img {
   height: 100px;
   width: 100px;
-  padding-right: 2px;
+  padding-top: 5px;
+  padding-right: 3px;
+  display: inline-block;
+  float: left;
 }
 
 .food-category p {
