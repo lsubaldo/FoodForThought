@@ -1,15 +1,10 @@
-.food-category {
+.results {
   display: grid;
   grid-template-columns: 100px 100px 100px;
   grid-gap: 20px;
 }
 
-.food-heading {
-  font-family: sans-serif;
-  padding: 2px;
-}
-
-.food-category a {
+.results a {
   float: left;
   text-align: center;
   display: inline-block;
@@ -17,16 +12,16 @@
   color: black;
 }
 
-.food-category img {
-  height: 100px;
-  width: 100px;
+.results img {
+  height: 110px;
+  width: 110px;
   padding-top: 5px;
-  padding-right: 3px;
+  padding-right: 5px;
   display: inline-block;
   float: left;
 }
 
-.food-category p {
+.results p {
   position: relative;
   font-size: 10px;
   font-family: sans-serif;

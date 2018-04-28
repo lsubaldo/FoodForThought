@@ -6,6 +6,7 @@ img {
 #image {
   left: 0%;
   float: left;
+  padding-right: 10px;
 }
 
 #recipe {
@@ -17,6 +18,10 @@ img {
 
 #description {
   font-family: sans-serif;
-  padding-left: 25px;
+  padding-left: 20px;
   padding-bottom: 15px;
+}
+
+#description p {
+  font-size: 14px;
 }
