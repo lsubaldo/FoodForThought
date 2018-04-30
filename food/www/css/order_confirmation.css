@@ -1,0 +1,55 @@
+body {
+    background-image: url("../images/background2.png");
+}
+
+
+button {
+    background: #C7D4F2;
+    color: black;
+    padding: 14px 20px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+	margin-top: 10%;
+	box-shadow: 5px 5px 5px grey;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+    opacity: 0.8;
+}
+
+::placeholder{
+	color:#929292;
+}
+
+.thank{
+  margin-top:20%;
+  margin-left:5%;
+  font-size: 35px;
+  font-style: bold;
+}
+
+.content{
+  margin-left: 5%;
+  font-size: 20px;
+}
+
+.homebutton{
+  text-align: center;
+}
+
+
+/*
+ul {
+    list-style-type: none;
+	margin-left: 22%;
+	background-color: #FC9471;
+}
+
+li a {
+    color: black;
+    text-decoration: none;
+}
+*/
