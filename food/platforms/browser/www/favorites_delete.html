@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="format-detection" content="telephone=no" />
+  <meta name="msapplication-tap-highlight" content="no" />
+  <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+  <meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src *" />
+  <link rel="stylesheet" type="text/css" href="css/favorites_delete.css" />
+  <link rel="stylesheet" type="text/css" href="css/navbar.css"/>
+  <script src="js/delete.js"></script>
+  <title>Food For Thought</title>
+</head>
+
+<body>
+    <div class="top">
+      <p class="title">Favorites</p>
+      <button type="edit" onclick="">Edit</button>
+    </div>
+
+    <div class="container">
+      <p class="category">Category</p>
+      <div class="photos" id="block1">
+        <div class="img-wrap" id="11">
+          <span class="close" onclick="deleteElement('block1','11')">&times;</span>
+          <a href="#"><img src="images/pasta.jpg"><p class="name">Penne Vodka</p></a>
+        </div>
+        <div class="img-wrap" id="12">
+          <span class="close" onclick="deleteElement('block1','12')">&times;</span>
+          <a href="#"><img src="images/pizza.jpg"><p class="name">Penne Vodka</p></a>
+        </div>
+        <div class="img-wrap" id="13">
+          <span class="close" onclick="deleteElement('block1','13')">&times;</span>
+          <a href="#"><img src="images/taco.jpg"><p class="name">Penne Vodka</p></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <p class="category">Category</p>
+      <div class="photos" id="block2">
+        <div class="img-wrap" id="21">
+          <span class="close" onclick="deleteElement('block2','21')">&times;</span>
+          <a href="#"><img src="images/pasta.jpg" data-id="21"><p class="name">Penne Vodka</p></a>
+        </div>
+        <div class="img-wrap" id="22">
+          <span class="close" onclick="deleteElement('block2','22')">&times;</span>
+          <a href="#"><img src="images/pizza.jpg" data-id="22"><p class="name">Penne Vodka</p></a>
+        </div>
+        <div class="img-wrap" id="23">
+          <span class="close" onclick="deleteElement('block2','23')">&times;</span>
+          <a href="#"><img src="images/taco.jpg" data-id="23"><p class="name">Penne Vodka</p></a>
+        </div>
+      </div>
+    </div>
+
+
+
+
+</body>
+
+</html>
