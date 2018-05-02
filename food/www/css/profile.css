@@ -31,6 +31,7 @@ button{
   background-color: #9BB4EC;
   text-align: center;
   font-size: 14px;
+  font-weight: bold;
 }
 
 input{
@@ -55,7 +56,7 @@ input{
 .profile-info{
   position: relative;
   float: left;
-  margin-left: 5%;
+  margin-left: 2%;
   top: 10px;
   width:100%;
 }
@@ -108,4 +109,29 @@ input{
 .food-heading h2 {
   color: black;
   font-size: 17px;
+}
+
+.order{
+  overflow: hidden; /* Overflow due to float */
+  background-color: #ed9977ff;
+  position: fixed;
+  bottom: 0;
+  width: 100%; /* Full-width */
+  margin-left: -9px;
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.order a{
+  text-decoration: none;
+  font-size: 25px;
+  color: black;
+  bottom:10px;
+}
+
+.personal-info {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-gap: 20px;
 }

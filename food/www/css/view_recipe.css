@@ -16,3 +16,14 @@ body {
   font-weight: bold;
   color: #9BB4EC
 }
+
+button{
+  float: right;
+  position: relative;
+  border: none;
+  padding-right: 10px;
+  background-color: #9BB4EC;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+}
