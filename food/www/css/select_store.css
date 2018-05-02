@@ -1,0 +1,91 @@
+.title{
+  font-size: 35px;
+  font-style: bold;
+  text-align: center;
+  margin-top: 15%;
+}
+
+.container{
+  margin-left: 5%;
+  width: 95%;
+}
+
+table,tr{
+  text-align: center;
+  font-size: 20px;
+}
+
+.store{
+  text-align: center;
+  margin-top: 20%;
+}
+.container{
+  text-align: center;
+  margin-top: 15%;
+}
+
+button {
+    background-color: #C7D4F2;
+    color: black;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+button1 {
+    background-color: #9BB4EC;
+    color: black;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.order{
+  overflow: hidden; /* Overflow due to float */
+  background-color: #ed9977ff;
+  position: fixed;
+  bottom: 0;
+  width: 100%; /* Full-width */
+  margin-left: -9px;
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.order a{
+  text-decoration: none;
+  font-size: 25px;
+  color: black;
+  bottom:10px;
+}
+
+img {
+  width:150px;
+  height:150px;
+}
+
+#image {
+  left: 0%;
+  float: left;
+  padding-right: 10px;
+}
+
+.recipe {
+  float:left;
+  width: 90%;
+  height: 33%;
+  margin-bottom: 10%;
+  margin-left: 5%;
+}
+
+#description {
+  font-family: sans-serif;
+  padding-left: 20px;
+  padding-bottom: 15px;
+}
+
+#description p {
+  font-size: 14px;
+}
