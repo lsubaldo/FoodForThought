@@ -10,17 +10,29 @@
   <link rel="stylesheet" type="text/css" href="css/search_result_list.css" />
   <link rel="stylesheet" type="text/css" href="css/searchbar.css" />
   <link rel="stylesheet" type="text/css" href="css/navbar.css"/>
+  <link rel="stylesheet" type="text/css" href="css/toggle_search_results.css"/>
+
   <title>Food For Thought</title>
 </head>
 
 <body>
 
-    <div class="search-container">
-      <form id="search-form">
-        <span class="icon"><i class = "fa fa-search"></i></span>
-        <input value="" type="text" placeholder="Search" />
-      </form>
+  <div class="search-container">
+    <form id="search-form">
+      <span class="icon"><i class = "fa fa-search"></i></span>
+      <a href="search_filter.html"><input type="text" id="search-field" class="search-field" type="search" placeholder="Search" /></a> <!-- <button id="search-button" class="search-button">Search</button> /-->
+    </form>
+    <div class="search-icon">
+      <a href="search_filter.html"><img src="images/search.png"></a>
     </div>
+  </div>
+
+  <div class="toggle-search-results">
+    <a href="search_result_grid.html"><img src="images/grid-menu.png"></a>
+    <a href="search_result_list.html"><img src="images/text.png"></a>
+  </div>
+
+  <br><br><br>
 
   <div class="recipe">
     <div id="image">
@@ -54,7 +66,7 @@
 
     <div class="icon-bar">
       <a href="#"><img src="images/profile.png"><p>Profile</p></a>
-      <a href="#"><img src="images/favorites.png"><p>Favorites</p></a>
+      <a href="favorites.html"><img src="images/favorites.png"><p>Favorites</p></a>
       <a href="main.html"><img src="images/home.png"><p>Home</p></a>
       <a href="#"><img src="images/manage_orders.png"><p>My Orders</p></a>
       <a href="#"><img src="images/shopping_cart.png"><p>Cart</p></a>

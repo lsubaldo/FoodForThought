@@ -105,13 +105,13 @@ h1 {
     50% { opacity: 0.4; }
     to { opacity: 1.0; }
 }
- 
+
 @-webkit-keyframes fade {
     from { opacity: 1.0; }
     50% { opacity: 0.4; }
     to { opacity: 1.0; }
 }
- 
+
 .blink {
     animation:fade 3000ms infinite;
     -webkit-animation:fade 3000ms infinite;
@@ -225,7 +225,6 @@ button1 {
     margin-top: 10px;
     border: none;
     cursor: pointer;
-	margin-left: 32%;
-	box-shadow: 5px 5px 5px grey;
+	  margin-left: 32%;
+	  box-shadow: 5px 5px 5px grey;
 }
-
