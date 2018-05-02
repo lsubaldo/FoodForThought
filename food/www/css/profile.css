@@ -9,7 +9,7 @@ body {
 h1 {
   position: relative;
   margin-right: 25%;
-  font-size: 30px;
+  font-size: 25px;
   font-family: 'Mina',sans-serif;
 }
 
@@ -103,4 +103,9 @@ input{
 
 .icon-bar h2 {
   color: black;
+}
+
+.food-heading h2 {
+  color: black;
+  font-size: 17px;
 }
