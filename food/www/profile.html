@@ -40,19 +40,21 @@ under the License.
 <link href='//fonts.googleapis.com/css?family=Mina' rel='stylesheet' type="text/css">
 <link rel="stylesheet" type="text/css" href="css/navbar.css"/>
 <link rel="stylesheet" type="text/css" href="css/profile.css"/>
+<link rel="stylesheet" type="text/css" href="css/back_button.css"/>
+<script src="js/back.js"></script>
 <title>Profile Page</title>
 </head>
 
 <body>
 
-  <div class="back-bar">
-    <p onclick="location.href='main.html'">&emsp;<</p>
+  <div class="back">
+    <p class="goback" onclick=goBack()> < </p>
   </div>
 
   <img src="images/profileP.png" class="pic"></img>
 
   <div class="profile-top">
-    <h1>Name Name</h1>
+    <h1>Joyce Li</h1>
     <button>EDIT</button>
   </div>
 
@@ -68,12 +70,12 @@ under the License.
   <div class="profile-info">
     <h2>Favorites</h2>
     <div class="food-category">
-      <a href="#"><img src="images/delish-strawberry-cheesecake-stuffed-cupcakes.jpg"><p>Strawberry Cheesecake Stuffed Cupcakes</p></a>
-      <a href="#"><img src="images/delish-banana-pudding-poke-cake.jpg"><p>Banana Pudding Poke Cake</p></a>
-      <a href="#"><img src="images/delish-banana-pudding-poke-cake.jpg"><p>Banana Pudding Poke Cake</p></a>
-      <a href="#"><img src="images/delish-banana-pudding-poke-cake.jpg"><p>Banana Pudding Poke Cake</p></a>
+      <a href="view_recipe.html"><img src="images/delish-strawberry-cheesecake-stuffed-cupcakes.jpg"><p>Strawberry Cheesecake Stuffed Cupcakes</p></a>
+      <a href="view_recipe.html"><img src="images/delish-banana-pudding-poke-cake.jpg"><p>Banana Pudding Poke Cake</p></a>
+      <a href="view_recipe.html"><img src="images/delish-banana-pudding-poke-cake.jpg"><p>Banana Pudding Poke Cake</p></a>
+      <a href="view_recipe.html"><img src="images/delish-banana-pudding-poke-cake.jpg"><p>Banana Pudding Poke Cake</p></a>
     </div>
-    <button>Go to Favorites</button>
+    <button onclick="location.href='favorites.html'">Go to Favorites</button>
 
   </div>
 
@@ -81,7 +83,7 @@ under the License.
 
   <div class="profile-info">
     <h2>Orders</h2>
-    <button>Go to Orders</button>
+    <button onclick="location.href='manage_orders.html'">Go to Orders</button>
   </div>
 
   <div class="profile-info">
