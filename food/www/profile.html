@@ -40,13 +40,14 @@ under the License.
 <link href='//fonts.googleapis.com/css?family=Mina' rel='stylesheet' type="text/css">
 <link rel="stylesheet" type="text/css" href="css/navbar.css"/>
 <link rel="stylesheet" type="text/css" href="css/profile.css"/>
+<link rel="stylesheet" type="text/css" href="css/back_button.css"/>
 <title>Profile Page</title>
 </head>
 
 <body>
 
-  <div class="back-bar">
-    <p onclick="location.href='main.html'">&emsp;<</p>
+  <div class="back">
+    <p class="goback" onclick="location.href='main.html'"> < </p>
   </div>
 
   <img src="images/profileP.png" class="pic"></img>
@@ -73,11 +74,9 @@ under the License.
       <a href="#"><img src="images/delish-banana-pudding-poke-cake.jpg"><p>Banana Pudding Poke Cake</p></a>
       <a href="#"><img src="images/delish-banana-pudding-poke-cake.jpg"><p>Banana Pudding Poke Cake</p></a>
     </div>
-    <button>Go to Favorites</button>
+    <button onclick="location.href='favorites.html'">Go to Favorites</button>
 
   </div>
-
-
 
   <div class="profile-info">
     <h2>Orders</h2>
@@ -89,7 +88,11 @@ under the License.
   </div>
 
   <div class="icon-bar">
-    <h2 onclick="location.href='main.html'">Upload Recipe</h2>
+    <a href="profile_create.html"><img src="images/profile.png"><p>Profile</p></a>
+    <a href="favorites.html"><img src="images/favorites.png"><p>Favorites</p></a>
+    <a href="main.html"><img src="images/home.png"><p>Home</p></a>
+    <a href="#"><img src="images/manage_orders.png"><p>My Orders</p></a>
+    <a href="order_ingredients.html"><img src="images/shopping_cart.png"><p>Cart</p></a>
   </div>
 
 </body>
