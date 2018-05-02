@@ -41,38 +41,52 @@ under the License.
 <link rel="stylesheet" type="text/css" href="css/navbar.css"/>
 <link rel="stylesheet" type="text/css" href="css/profile.css"/>
 <link rel="stylesheet" type="text/css" href="css/back_button.css"/>
+<script src="js/back.js"></script>
 <title>Profile Page</title>
 </head>
 
 <body>
 
   <div class="back">
-    <p class="goback" onclick="location.href='main.html'"> < </p>
+    <p class="goback" onclick=goBack()> < </p>
   </div>
 
   <img src="images/personaP.png" class="pic"></img>
 
   <div class="profile-top">
-    <h1>Name Name</h1>
+    <h1>Milo Ren</h1>
     <button>EDIT</button>
   </div>
 
   <div class="profile-info">
     <h2>About Me </h2>
-    <h4 style=" font-family: 'Mina';">Add information about yourself </h4>
+    <h4 style=" font-family: 'Mina';">Hi there! I'm Milo Ren.</h4>
     <h2>Address, Email, and Billing </h2>
+<<<<<<< HEAD
+    <u><h3>Update Address </h3></u>
+    <u><h3>Update Email </h3></u>
+    <u><h3>Update Billing </h3></u>
+=======
     <h3> Address </h3>
     <h3> Email </h3>
     <h3> Billing Information </h3>
+>>>>>>> 76c4c2bf7bda7222944705fc7a46deb4057daf87
   </div>
 
   <div class="profile-info">
     <h2>Favorites</h2>
     <div class="food-category">
+<<<<<<< HEAD
+      <a href="view_recipe.html"><img src="images/delish-strawberry-cheesecake-stuffed-cupcakes.jpg"><p>Strawberry Cheesecake Stuffed Cupcakes</p></a>
+      <a href="view_recipe.html"><img src="images/delish-banana-pudding-poke-cake.jpg"><p>Banana Pudding Poke Cake</p></a>
+      <a href="view_recipe.html"><img src="images/delish-banana-pudding-poke-cake.jpg"><p>Banana Pudding Poke Cake</p></a>
+      <a href="view_recipe.html"><img src="images/delish-banana-pudding-poke-cake.jpg"><p>Banana Pudding Poke Cake</p></a>
+=======
       <a href="#"><img src="images/delish-strawberry-cheesecake-stuffed-cupcakes.jpg"><p>Strawberry Cheesecake Stuffed Cupcakes</p></a>
       <a href="#"><img src="images/delish-banana-pudding-poke-cake.jpg"><p>Banana Pudding Poke Cake</p></a>
       <a href="#"><img src="images/garlic_rosemary_chicken.jpg"><p>Garlic and Rosemary Chicken</p></a>
       <a href="#"><img src="images/baked_garlic_parmesan_chicken.jpg"><p>Baked Garlic Parmesan Chicken</p></a>
+>>>>>>> 76c4c2bf7bda7222944705fc7a46deb4057daf87
     </div>
     <button onclick="location.href='favorites.html'">Go to Favorites</button>
 
@@ -80,7 +94,7 @@ under the License.
 
   <div class="profile-info">
     <h2>Orders</h2>
-    <button>Go to Orders</button>
+    <button onclick="location.href='manage_order.html'">Go to Orders</button>
   </div>
 
   <div class="profile-info">
@@ -88,10 +102,10 @@ under the License.
   </div>
 
   <div class="icon-bar">
-    <a href="profile_create.html"><img src="images/profile.png"><p>Profile</p></a>
+    <a href="profile.html"><img src="images/profile.png"><p>Profile</p></a>
     <a href="favorites.html"><img src="images/favorites.png"><p>Favorites</p></a>
     <a href="main.html"><img src="images/home.png"><p>Home</p></a>
-    <a href="#"><img src="images/manage_orders.png"><p>My Orders</p></a>
+    <a href="manage_order.html"><img src="images/manage_orders.png"><p>My Orders</p></a>
     <a href="order_ingredients.html"><img src="images/shopping_cart.png"><p>Cart</p></a>
   </div>
 
