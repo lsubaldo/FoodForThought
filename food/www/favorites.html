@@ -9,10 +9,16 @@
   <meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src *" />
   <link rel="stylesheet" type="text/css" href="css/favorites.css" />
   <link rel="stylesheet" type="text/css" href="css/navbar.css"/>
+  <link rel="stylesheet" type="text/css" href="css/back_button.css"/>
+  <script src="js/back.js"></script>
   <title>Food For Thought</title>
 </head>
 
 <body>
+  <div class="back">
+    <p class="goback" onclick=goBack()> < </p>
+  </div>
+
     <div class="top">
       <p class="title">Favorites</p>
       <button type="edit" onclick="location.href='favorites_delete.html'">Edit</button>
