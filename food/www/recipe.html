@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<!--
+    Copyright (c) 2012-2016 Adobe Systems Incorporated. All rights reserved.
+
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+     KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.
+-->
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+    <!-- This is a wide open CSP declaration. To lock this down for production, see below. -->
+    <meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src *" />
+    <!-- Good default declaration:
+    * gap: is required only on iOS (when using UIWebView) and is needed for JS->native communication
+    * https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
+    * Disables use of eval() and inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
+        * Enable inline JS: add 'unsafe-inline' to default-src
+        * Enable eval(): add 'unsafe-eval' to default-src
+    * Create your own at http://cspisawesome.com
+    -->
+    <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: 'unsafe-inline' https://ssl.gstatic.com; style-src 'self' 'unsafe-inline'; media-src *" /> -->
+    <link rel="stylesheet" type="text/css" href="css/recipe.css"/>
+    <link rel="stylesheet" type="text/css" href="css/navbar.css"/>
+    <link rel="stylesheet" type="text/css" href="css/back_button.css"/>
+    <title>Recipe</title>
+</head>
+
+<body>
+
+  <div class="back">
+    <p class="goback" onclick=goBack()> < </p>
+  </div>
+
+  <div class="name">
+    <h3>Pasta with Vodka Creme Sauce</h3>
+  </div>
+
+  <div class="pic">
+    <img src="images/pizza.jpg" alt="Pizza">
+    <h2> Ingredients </h2>
+    <p> Sauce - 3 gallons </p>
+    <p> Spices - 2 </p>
+    <p> Pizza - 1 </p>
+  </div>
+
+  <div class="info">
+    <h3>Time: 30 minutes</h3>
+    <h3>Serves: 3</h3>
+
+  </div>
+
+  <div class="info">
+    <h2>Description </h2>
+    <p>Some of the best homemade pizza you'll ever taste. Mozorella Cheese, Margherita sausea and spectacular crust. </p>
+  </div>
+
+  <div class="info">
+    <h2>Comments </h2>
+    <p>MMMMMMMMMMM GREAT STUFF </p>
+  </div>
+
+  <div class="icon-bar">
+    <a href="#" onclick="location.href='profile.html'"><img src="images/profile.png"><p>Profile</p></a>
+    <a href="#" onclick="location.href='favorites.html'"><img src="images/favorites.png"><p>Favorites</p></a>
+    <a href="#"><img src="images/home.png"><p>Home</p></a>
+    <a href="manage_order.html"><img src="images/manage_orders.png"><p>My Orders</p></a>
+    <a href="order_ingredients.html" onclick="location.href='order_ingredients.html'"><img src="images/shopping_cart.png"><p>Cart</p></a>
+  </div>
+
+</body>
+
+</html>
