@@ -1,14 +1,22 @@
+body {
+  font-family: 'Mina',sans-serif;
+}
+
+.about-me {
+  font-weight: normal;
+}
 
 h1 {
   position: relative;
   margin-right: 25%;
-  font-size: 20px;
+  font-size: 30px;
   font-family: 'Mina',sans-serif;
 }
 
 h2 {
   font-size: 20px;
   font-family: 'Mina',sans-serif;
+  color: #9BB4EC;
 }
 
 h3{
@@ -19,9 +27,10 @@ h3{
 button{
   position: relative;
   border: none;
-
-  /* right: -20%; */
-  background-color: lightblue;
+  padding-right: 10px;
+  background-color: #9BB4EC;
+  text-align: center;
+  font-size: 14px;
 }
 
 input{
@@ -83,4 +92,15 @@ input{
   font-family: sans-serif;
   display: grid;
   overflow: hidden;
+}
+
+.add-image img {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  padding-left: 10px;
+}
+
+.icon-bar h2 {
+  color: black;
 }
