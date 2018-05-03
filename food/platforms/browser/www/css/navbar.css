@@ -3,7 +3,7 @@
     background-color: #ed9977ff;
     position: fixed;
     bottom: 0;
-    width: 100%; /* Full-width */
+    width: 101%; /* Full-width */
     margin-left: -9px;
 }
 
@@ -33,6 +33,28 @@
 
 .icon-bar a:hover {
     background-color: #FFC0A7; /* Add a hover color */
+}
+
+.icon-bar h2{
+
+  font-size: 20px;
+  font-family: sans-serif;
+  text-align: center;
+
+}
+
+.back-bar {
+    overflow: hidden; /* Overflow due to float */
+    background-color: #ed9977ff;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    height: 4%;
+    width: 100%; /* Full-width */
+    margin-left: -9px;
+}
+.back-bar p{
+  font-size:8px;
 }
 
 .active {

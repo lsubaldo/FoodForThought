@@ -1,0 +1,24 @@
+
+img {
+  width:150px;
+  height:150px;
+  margin-left: 5%;
+}
+
+
+
+
+
+
+
+
+
+
+.name{
+  position: relative;
+  margin-left: 5%;
+  margin-top: 50px;
+  width: 90%;
+  text-align: center;
+  background-color: lightblue;
+}

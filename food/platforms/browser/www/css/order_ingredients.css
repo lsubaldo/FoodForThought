@@ -64,3 +64,37 @@ button1 {
   color: black;
   bottom:10px;
 }
+
+.recipe{
+  width: 80%;
+  margin-left: 10%;
+  margin-bottom: 10%;
+}
+
+legend{
+  font-size: 25px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+label{
+  font-size: 18px;
+}
+select{
+  -webkit-appearance: menulist;
+  /*webkit browsers */
+  -moz-appearance: none;
+  /*Firefox */
+  appearance: none;
+  /* modern browsers */
+  border-radius: 0;
+
+}
+.ingredient{
+  margin-bottom: 5px;
+}
+
+#number{
+  margin-left: 50%;
+  text-align: center;
+}

@@ -9,34 +9,46 @@
   <meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src *" />
   <link rel="stylesheet" type="text/css" href="css/favorites.css" />
   <link rel="stylesheet" type="text/css" href="css/navbar.css"/>
+  <link rel="stylesheet" type="text/css" href="css/back_button.css"/>
+  <script src="js/back.js"></script>
   <title>Food For Thought</title>
 </head>
 
 <body>
+  <div class="back">
+    <p class="goback" onclick=goBack()> < </p>
+  </div>
+  <br>
     <div class="top">
-      <p class="title">Favorites</p>
+      <h2 class="title">Favorites</h2>
       <button type="edit" onclick="location.href='favorites_delete.html'">Edit</button>
     </div>
 
     <div class="container">
       <p class="category">Category</p>
       <div class="photos">
-        <a href="#"><img src="images/pasta.jpg"><p class="name">Penne Vodka</p></a>
-        <a href="#"><img src="images/pizza.jpg"><p class="name">Margherita Pizza</p></a>
-        <a href="#"><img src="images/taco.jpg"><p class="name">Pineapple Poblano Beef Tacos</p></a>
+        <a href="view_recipe.html"><img src="images/pasta.jpg"><p class="name">Penne Vodka</p></a>
+        <a href="view_recipe.html"><img src="images/pizza.jpg"><p class="name">Margherita Pizza</p></a>
+        <a href="view_recipe.html"><img src="images/taco.jpg"><p class="name">Pineapple Poblano Beef Tacos</p></a>
       </div>
     </div>
 
     <div class="container">
       <p class="category">Category</p>
       <div class="photos">
-        <a href="#"><img src="images/pasta.jpg"><p class="name">Penne Vodka</p></a>
-        <a href="#"><img src="images/pizza.jpg"><p class="name">Margherita Pizza</p></a>
-        <a href="#"><img src="images/taco.jpg"><p class="name">Pineapple Poblano Beef Tacos</p></a>
+        <a href="view_recipe.html"><img src="images/pasta.jpg"><p class="name">Penne Vodka</p></a>
+        <a href="view_recipe.html"><img src="images/pizza.jpg"><p class="name">Margherita Pizza</p></a>
+        <a href="view_recipe.html"><img src="images/taco.jpg"><p class="name">Pineapple Poblano Beef Tacos</p></a>
       </div>
     </div>
 
-
+    <div class="icon-bar">
+      <a href="profile.html"><img src="images/profile.png"><p>Profile</p></a>
+      <a href="favorites.html"><img src="images/favorites.png"><p>Favorites</p></a>
+      <a href="main.html"><img src="images/home.png"><p>Home</p></a>
+      <a href="manage_order.html"><img src="images/manage_orders.png"><p>My Orders</p></a>
+      <a href="order_ingredients.html"><img src="images/shopping_cart.png"><p>Cart</p></a>
+    </div>
 
 
 </body>

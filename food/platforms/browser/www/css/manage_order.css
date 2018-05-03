@@ -9,23 +9,9 @@ body {
   margin-top: 15%;
 }
 
-.container{
-  margin-left: 5%;
-  width: 95%;
-}
-
 table,tr{
   text-align: center;
   font-size: 20px;
-}
-
-.store{
-  text-align: center;
-  margin-top: 20%;
-}
-.container{
-  text-align: center;
-  margin-top: 15%;
 }
 
 button {
@@ -63,4 +49,8 @@ button1 {
   font-size: 25px;
   color: black;
   bottom:10px;
+}
+
+#myDIV{
+  margin-bottom: 30px;
 }

@@ -1,0 +1,16 @@
+.back{
+  overflow: hidden; /* Overflow due to float */
+  background-color: #F8B735;
+  position: fixed;
+  top: 0;
+  width: 100%; /* Full-width */
+  height: 35px;
+  margin-left: -9px;
+  z-index: 1;
+}
+
+.goback{
+  font-size: 20px;
+  margin-left: 5%;
+  margin-top: 5px;
+}
