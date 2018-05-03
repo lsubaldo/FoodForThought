@@ -1,0 +1,137 @@
+body {
+  font-family: 'Mina',sans-serif;
+}
+
+.about-me {
+  font-weight: normal;
+}
+
+h1 {
+  position: relative;
+  margin-right: 25%;
+  font-size: 25px;
+  font-family: 'Mina',sans-serif;
+}
+
+h2 {
+  font-size: 20px;
+  font-family: 'Mina',sans-serif;
+  color: #9BB4EC;
+}
+
+h3{
+  font-size: 14px;
+  font-family: 'Mina',sans-serif;
+}
+
+button{
+  position: relative;
+  border: none;
+  padding-right: 10px;
+  background-color: #9BB4EC;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+input{
+  width: 75%;
+  border-style: solid;
+}
+
+.pic{
+  float: left;
+  width: 40%;
+  margin-top:12%;
+  margin-left: 5%;
+  position: relative;
+}
+
+.profile-top{
+  margin-top:10%;
+  float:right;
+  width: 40%;
+}
+
+.profile-info{
+  position: relative;
+  float: left;
+  margin-left: 2%;
+  top: 10px;
+  width:100%;
+}
+
+.food-category {
+  float:left;
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-gap: 20px;
+  /* overflow-x: scroll; */
+  white-space: nowrap;
+}
+
+.food-category a {
+  float: left;
+  text-align: center;
+  display: grid;
+  /* width: 30%; */
+  color: black;
+}
+
+.food-category img {
+  height: 100px;
+  width: 100px;
+  padding-top: 5px;
+  padding-right: 1px;
+  display: inline-block;
+  float: left;
+}
+
+.food-category p {
+  position: relative;
+  font-size: 10px;
+  font-family: sans-serif;
+  display: grid;
+  overflow: hidden;
+}
+
+.add-image img {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  padding-left: 10px;
+}
+
+.icon-bar h2 {
+  color: black;
+}
+
+.food-heading h2 {
+  color: black;
+  font-size: 17px;
+}
+
+.order{
+  overflow: hidden; /* Overflow due to float */
+  background-color: #ed9977ff;
+  position: fixed;
+  bottom: 0;
+  width: 100%; /* Full-width */
+  margin-left: -9px;
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.order a{
+  text-decoration: none;
+  font-size: 25px;
+  color: black;
+  bottom:10px;
+}
+
+.personal-info {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-gap: 20px;
+}
